@@ -1,0 +1,274 @@
+@font-face { font-family: Child; src: url('Child.ttf'); }
+
+@font-face { font-family: Childhead; src: url('Childhead.ttf'); }
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+body {
+  animation: fadeIn 2s;
+  background-color: #fff7f7;
+  margin: 0;
+
+}
+
+.navbar {
+  font-family: monospace;
+  overflow: auto;
+  background-color: #ff843a;
+  top: auto;
+  width: 100%;
+  position: auto;
+  top: 0;
+}
+
+.bottombar {
+  font-family: monospace;
+  overflow: auto;
+  background-color: #ff843a;
+  top: auto;
+  width: 100%;
+  position: auto;
+  bottom: 0;
+  margin 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: auto;
+}
+
+.HomePageCol {
+
+}
+
+.ListSum {
+  font-size: 25px;
+  line-height:0%
+}
+
+.navbar a {
+  font-family: fantasy;
+  float: left;
+  display: block;
+  color: #612c0c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.hometext {
+  margin-left: 20px;
+  margin-right: 100px;
+  max-width: 55%;
+}
+
+.WieOver {
+  margin-left: 20px;
+  margin-right: 100px;
+  max-width: 55%;
+}
+
+.mailJenny {
+  color: #32791e;
+  text-align: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-family: child;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+.HomePageQuote {
+  animation: fadeIn 6s;
+  color: #9f4610;
+  max-width: 70%;
+  letter-spacing: 5px;
+}
+
+.HomePageQuote2 {
+  animation: fadeIn 6s;
+  color: #9f4610;
+  max-width: 70%;
+  letter-spacing: 5px;
+  float: right;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.bold {
+  font-weight: bolder;
+  margin-top: 3px;
+}
+
+.info {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+
+.WieOverh1 {
+  margin-left: 20px;
+  margin-right: 100px;
+  max-width: 55%;
+  letter-spacing: 3px;
+}
+
+.JennyHomePage {
+  float: right;
+  width: 400px;
+  height: auto;
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.Tarief {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.tariefBtw {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 20px;
+  margin: 6px;
+}
+
+.tariefInfo {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 25px;
+  margin: 6px;
+}
+
+.navbar a:hover {
+  background: #cc5b16;
+  color: black;
+}
+
+.main {
+  margin-top: 30px;
+}
+
+.LeftPage {
+  overflow: hidden;
+  position: static;
+  top: auto;
+  width: 96%;
+}
+
+summary {
+  margin: 10px;
+}
+
+details {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: black;
+  font-style: bold;
+  font-family: child;
+  letter-spacing: 3px;
+  font-size: 60px;
+}
+
+#hr1 {
+  background-color: #ff9eb5;
+  width: 40%;
+}
+
+#imkz {
+  float: right;
+  font-family: child;
+  font-weight: bolder;
+  letter-spacing: 10px;
+  font-size: 20px;
+}
+
+#Hr_Home {
+  margin-left: 10px;
+  height: 1px;
+  background-color: black;
+}
+
+#BottomBarText {
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+p {
+  color: #0a1e04;
+  text-align: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-style: normal;
+  font-family: child;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+p1 {
+  float: none;
+  display: inherit;
+  color: #ff9eb5;
+  text-align: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: #ff9eb5;
+  font-style: oblique;
+  font-family: child;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+p2 {
+  float: none;
+  display: inherit;
+  color: black;
+  text-align: left;
+  padding: 0px 10px;
+  font-style: italic;
+  font-family: child;
+  letter-spacing: 3px;
+  font-size: 80px;
+  letter-spacing: 8px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  float: none;
+  display: inherit;
+  color: #612c0cs;
+  text-align: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 50px;
+  font-style: oblique;
+  font-family: child;
+}
+
+h3 {
+  float: none;
+  display: inherit;
+  color: black;
+  text-align: left;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: 70px;
+  font-style: oblique;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  margin: 50px;
+  margin-left: 10px;
+}
+
+a {
+  font-family: fantasy;
+  font-style: oblique;
+  font-size: 20px;
+}
